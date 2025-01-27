@@ -30,7 +30,19 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import alma from "./Alma.jpg";
+import crud from "./CRUD.png";
+import ecom from "./EcomTanmay.png";
+
+import ATG from "./company/ATG.jpg"
+import Fam from "./company/icon.svg"
+
 export {
+  alma,
+  crud,
+  ecom,
+  ATG,
+  Fam,
   logo,
   backend,
   creator,

@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import Computers from "./canvas/Computers";
+// import ChairCanvas from "./canvas/Chair";
+import { Gaming_chair } from "./canvas/Gaming_chair";
 
 
 const Hero = () => {

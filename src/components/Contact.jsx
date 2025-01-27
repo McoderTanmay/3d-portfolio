@@ -26,7 +26,7 @@ const Contact = () => {
   const handelSubmit = (e) =>{
     e.preventDefault();
 
-    emailjs.send('service_mm94c9k', 'template_yv7hh1c',
+    emailjs.send(process.env.serviceId, process.env.templateId,
       {
         from_name: form.name,
         to_name: 'Tanmay Sontakke',
@@ -34,7 +34,7 @@ const Contact = () => {
         to_email:'tanmaysontakke99@gmail.com',
         message: form.message,
       },
-      '3ut-EeP0DrejWYgGn'
+      process.env.secret
      ).then(()=>{
       setLoading(false);
       alert('Tank you for your message. I will get back to you soon')
@@ -99,8 +99,22 @@ const Contact = () => {
             >
             </textarea>
           </label>
+          <label className="flex flex-col">
+            <div
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none"
+            >
+              <a href="https://docs.google.com/document/d/1q-UwCl56I8MD-xU4ldN5Xh0Sq67X0Nizv5lX_apODOI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+            </div>
+          </label>
+          <label className="flex flex-col">
+            <div
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none"
+            >
+              <a href="https://www.linkedin.com/in/tanmay-sontakke-3b99b4228/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </label>
           <button type="submit"
-            className="ng-tertiary [y-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
           >
             {loading ? 'Loading...' : 'Send'}
           </button>

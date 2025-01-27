@@ -25,9 +25,15 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             {" "}
-             <span className="sm:block hidden">Tanmay Sontakke</span>
+            <span className="sm:block hidden">Tanmay Sontakke</span>
           </p>
         </Link>
+        <a
+          href="mailto:tanmaysontakke99@gmail.com"
+          className={`text-gray-400 text-[18px] font-medium cursor-pointer`}
+        >
+          tanmaysontakke99@gmail.com
+        </a>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
