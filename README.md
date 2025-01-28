@@ -22,7 +22,7 @@ A modern and interactive 3D portfolio website showcasing a personalized avatar i
 ---
 
 ## 🚀 **Live Demo**
-Check out the live version of the project [here](#). *(Replace `#` with your deployment URL)*
+Check out the live version of the project [here](https://3d-portfolio-one-azure.vercel.app/).
 
 ---
 
