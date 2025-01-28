@@ -34,3 +34,20 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+
+3. **Add Environment Variables**
+   Create a .env file in the root directory and add any required environment variables
+
+4. **Start the Development Server**
+   ```bash
+   npm start
+
+## 🤝 **Contributing**
+Contributions are welcome! Feel free to open issues or submit pull requests.
+-**Linkedin**: https://www.linkedin.com/in/tanmay-sontakke-3b99b4228/
+## Connect with Me
+Feel free to reach out or Check out more of my project
