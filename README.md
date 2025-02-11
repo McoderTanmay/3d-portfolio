@@ -1,8 +1,51 @@
-# React + Vite
+# 🚀 **3D Portfolio with Avatar**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive 3D portfolio website showcasing a personalized avatar in a stunning space-themed design. Built with cutting-edge technologies like **React**, **Framer Motion**, **React Three Fiber**, and **Ready Player Me**, this project features a fully responsive layout and smooth animations. The avatar is animated using **Mixamo**, making the experience dynamic and engaging.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 **Features**
+- 🖼️ **3D Avatar**: Created with **Ready Player Me** and animated using **Mixamo**.  
+- 🌌 **Space-Themed Design**: Immersive 3D space visuals for a futuristic feel.  
+- 📱 **Responsive Design**: Seamless experience across all devices.  
+- 🎨 **Smooth Animations**: Powered by **Framer Motion** for stunning transitions.  
+
+---
+
+## 🛠️ **Technologies Used**
+- **React.js**  
+- **Framer Motion**  
+- **React Three Fiber**  
+- **Ready Player Me**  
+- **Mixamo**  
+
+---
+
+## 🚀 **Live Demo**
+Check out the live version of the project [here](https://3d-portfolio-one-azure.vercel.app/).
+
+---
+
+## 📦 **Installation Guide**
+
+Follow these steps to set up the project locally:
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+
+3. **Add Environment Variables**
+   Create a .env file in the root directory and add any required environment variables
+
+4. **Start the Development Server**
+   ```bash
+   npm start
+
+## Connect with Me
+Feel free to reach out or Check out more of my project
+-**Linkedin**: https://www.linkedin.com/in/tanmay-sontakke-3b99b4228/
