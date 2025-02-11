@@ -28,7 +28,6 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.5
-        with: 
-          branch: gh-pages
-          folder: build
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./dist # Vite's default build folder
