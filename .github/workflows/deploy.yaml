@@ -28,8 +28,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
-          publish_dir: ./dist
-          enable_jekyll: false # Important for SPAs
-          keep_files: false
+          branch: gh-pages
+          folder: dist
