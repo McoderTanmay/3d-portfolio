@@ -103,7 +103,7 @@ const Contact = () => {
             <div
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none"
             >
-              <a href="https://docs.google.com/document/d/1q-UwCl56I8MD-xU4ldN5Xh0Sq67X0Nizv5lX_apODOI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+              <a href="https://drive.google.com/file/d/1k1AW4P6ki1HWr4mizkSYEThg5xlb0zvO" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
           </label>
           <label className="flex flex-col">
