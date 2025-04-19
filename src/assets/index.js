@@ -31,7 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import alma from "./Alma.jpg";
-import crud from "./CRUD.png";
+import crud from "./trinetra_homepage.png";
 import ecom from "./EcomTanmay.png";
 
 import ATG from "./company/ATG.jpg"

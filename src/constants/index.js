@@ -186,25 +186,25 @@ import {
       source_code_link: "https://github.com/McoderTanmay/EcomTanmay",
     },
     {
-      name: "CRUD Operations",
+      name: "Trinetra",
       description:
-        "Built a full-stack web application that performs CRUD operations on a MongoDB database. Features include user authentication, data validation, and error handling.",
+        "Built a Developed a web application to track global crime, allowing users to report incidents, view a heat map of crime data, access an interactive dashboard, and receive message broadcasts for alerts-stack web application that performs CRUD operations on a MongoDB database. Features include user authentication, data validation, and error handling.",
       tags: [
         {
           name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "MingiDBe",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "react-leaflet",
           color: "pink-text-gradient",
         },
       ],
       image: crud,
-      source_code_link: "https://github.com/McoderTanmay/CRUD",
+      source_code_link: "https://benevolent-beignet-7e524e.netlify.app/",
     },
   ];
   

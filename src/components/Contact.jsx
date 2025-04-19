@@ -99,25 +99,26 @@ const Contact = () => {
             >
             </textarea>
           </label>
-          <label className="flex flex-col">
-            <div
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none"
-            >
-              <a href="https://docs.google.com/document/d/1q-UwCl56I8MD-xU4ldN5Xh0Sq67X0Nizv5lX_apODOI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
-            </div>
-          </label>
-          <label className="flex flex-col">
-            <div
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none"
-            >
-              <a href="https://www.linkedin.com/in/tanmay-sontakke-3b99b4228/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </div>
-          </label>
           <button type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
           >
             {loading ? 'Loading...' : 'Send'}
           </button>
+          <label className="flex flex-col">
+            <div
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none "
+            >
+              <center><a href="https://drive.google.com/file/d/1WC3lWlyk3E0TLyzFVJBir7WFBAwmABAf/view" target="_blank" rel="noopener noreferrer">My Resume</a></center> 
+            </div>
+          </label>
+          <label className="flex flex-col">
+            <div
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none"
+            >
+              <center><a href="https://www.linkedin.com/in/tanmay-sontakke-3b99b4228/" target="_blank" rel="noopener noreferrer">My LinkedIn</a></center> 
+            </div>
+          </label>
+          
         </form>
       </motion.div>
       
